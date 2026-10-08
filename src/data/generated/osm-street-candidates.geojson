@@ -1,0 +1,1213 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generatedAt": "2026-10-07T11:46:15.736Z",
+    "source": "OpenStreetMap",
+    "license": "ODbL",
+    "geometryStatus": "candidate",
+    "queryBounds": [
+      -20.486,
+      -54.671,
+      -20.462,
+      -54.645
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/152855823",
+        "osmName": "Rua Dorothéa de Oliveira",
+        "matchedCanonicalName": "Dorothéa de Oliveira",
+        "axisIds": [
+          "T12"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 260.64
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6578874,
+            -20.4820842
+          ],
+          [
+            -54.6579628,
+            -20.4830961
+          ],
+          [
+            -54.6579802,
+            -20.4834642
+          ],
+          [
+            -54.6580419,
+            -20.483728
+          ],
+          [
+            -54.6581425,
+            -20.4839441
+          ],
+          [
+            -54.6583892,
+            -20.4843365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154027092",
+        "osmName": "Rua Orlandina de Oliveira Lima",
+        "matchedCanonicalName": "Orlandina de Oliveira Lima",
+        "axisIds": [
+          "T09"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 75.04
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6592966,
+            -20.4717959
+          ],
+          [
+            -54.6593864,
+            -20.4724655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154027094",
+        "osmName": "Rua Júlio Augusto de Campos",
+        "matchedCanonicalName": "Júlio Augusto de Campos",
+        "axisIds": [
+          "T13"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 305.15
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6563754,
+            -20.4801417
+          ],
+          [
+            -54.6563977,
+            -20.4799905
+          ],
+          [
+            -54.6564789,
+            -20.4794248
+          ],
+          [
+            -54.6565858,
+            -20.4787855
+          ],
+          [
+            -54.6567074,
+            -20.4780974
+          ],
+          [
+            -54.656825,
+            -20.4774301
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154027099",
+        "osmName": "Rua Dorothéa de Oliveira",
+        "matchedCanonicalName": "Dorothéa de Oliveira",
+        "axisIds": [
+          "T12"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 321.31
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6583192,
+            -20.4710862
+          ],
+          [
+            -54.658181,
+            -20.4719272
+          ],
+          [
+            -54.6580984,
+            -20.4726171
+          ],
+          [
+            -54.6580192,
+            -20.4732932
+          ],
+          [
+            -54.6579385,
+            -20.4739532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525413",
+        "osmName": "Rua Antônio João Escobar",
+        "matchedCanonicalName": "Antônio João Escobar",
+        "axisIds": [
+          "T13"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 151.34
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6665852,
+            -20.4749138
+          ],
+          [
+            -54.6658258,
+            -20.4750009
+          ],
+          [
+            -54.665144,
+            -20.4750852
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525414",
+        "osmName": "Travessa Luiz Arruda",
+        "matchedCanonicalName": "Travessa Luiz Arruda",
+        "axisIds": [
+          "T06"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 79.65
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6662033,
+            -20.4742932
+          ],
+          [
+            -54.6665852,
+            -20.4749138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525416",
+        "osmName": "Rua José Garcia Lopes Filho",
+        "matchedCanonicalName": "José Garcia Lopes Filho",
+        "axisIds": [
+          "T08"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 75.03
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6623889,
+            -20.471432
+          ],
+          [
+            -54.6624787,
+            -20.4721015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525436",
+        "osmName": "Rua Saladino Nunes",
+        "matchedCanonicalName": "Saladino Nunes",
+        "axisIds": [
+          "T14"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 150.35
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6630071,
+            -20.4760421
+          ],
+          [
+            -54.661575,
+            -20.4762106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525453",
+        "osmName": "Rua Otacílio de Souza",
+        "matchedCanonicalName": "Otacílio de Souza",
+        "axisIds": [
+          "T07"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 751.88
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6640637,
+            -20.4732323
+          ],
+          [
+            -54.6641512,
+            -20.4738847
+          ],
+          [
+            -54.664238,
+            -20.474533
+          ],
+          [
+            -54.6643254,
+            -20.4751825
+          ],
+          [
+            -54.6645751,
+            -20.4770423
+          ],
+          [
+            -54.664795,
+            -20.4788324
+          ],
+          [
+            -54.664968,
+            -20.4799405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525548",
+        "osmName": "Rua Fidelo Mariana Almeida",
+        "matchedCanonicalName": "Fidelo Mariana Almeida",
+        "axisIds": [
+          "T06"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 502.47
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6662033,
+            -20.4742932
+          ],
+          [
+            -54.6657956,
+            -20.474348
+          ],
+          [
+            -54.664238,
+            -20.474533
+          ],
+          [
+            -54.6628278,
+            -20.4747051
+          ],
+          [
+            -54.6614206,
+            -20.4748798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525553",
+        "osmName": "Rua Engenheiro Orlando Oliveira",
+        "matchedCanonicalName": "Engenheiro Orlando Oliveira",
+        "axisIds": [
+          "T03",
+          "T11"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 692.34
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6646105,
+            -20.4724953
+          ],
+          [
+            -54.6625667,
+            -20.472758
+          ],
+          [
+            -54.6611346,
+            -20.4729265
+          ],
+          [
+            -54.6594744,
+            -20.4731219
+          ],
+          [
+            -54.6580192,
+            -20.4732932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525556",
+        "osmName": "Rua Leonel Velasco",
+        "matchedCanonicalName": "Leonel Velasco",
+        "axisIds": [
+          "T02",
+          "T10"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 182.32
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6642116,
+            -20.4718717
+          ],
+          [
+            -54.6624787,
+            -20.4721015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525561",
+        "osmName": "Rua Antônio Vieira d'Almeida",
+        "matchedCanonicalName": "Antônio Vieira d’Almeida",
+        "axisIds": [
+          "T05"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 791.46
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6653941,
+            -20.4737203
+          ],
+          [
+            -54.6641512,
+            -20.4738847
+          ],
+          [
+            -54.6627401,
+            -20.4740508
+          ],
+          [
+            -54.6613295,
+            -20.4742118
+          ],
+          [
+            -54.6596564,
+            -20.4744062
+          ],
+          [
+            -54.6578582,
+            -20.4746253
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525563",
+        "osmName": "Rua Otorino Vieira",
+        "matchedCanonicalName": "Otorino Vieira",
+        "axisIds": [
+          "T04"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 571.25
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6649983,
+            -20.4731016
+          ],
+          [
+            -54.6640637,
+            -20.4732323
+          ],
+          [
+            -54.6626526,
+            -20.4733984
+          ],
+          [
+            -54.6612205,
+            -20.4735669
+          ],
+          [
+            -54.6595603,
+            -20.4737623
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525570",
+        "osmName": "Rua Professora Maria Lúcia Passarelli",
+        "matchedCanonicalName": "Professora Maria Lúcia Passarelli",
+        "axisIds": [
+          "T01"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 398.94
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6637805,
+            -20.4712989
+          ],
+          [
+            -54.6642116,
+            -20.4718717
+          ],
+          [
+            -54.6646105,
+            -20.4724953
+          ],
+          [
+            -54.6649983,
+            -20.4731016
+          ],
+          [
+            -54.6653941,
+            -20.4737203
+          ],
+          [
+            -54.6657956,
+            -20.474348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/157339816",
+        "osmName": "Rua José Garcia Lopes Filho",
+        "matchedCanonicalName": "José Garcia Lopes Filho",
+        "axisIds": [
+          "T08"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 647.77
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6629308,
+            -20.4753483
+          ],
+          [
+            -54.6630071,
+            -20.4760421
+          ],
+          [
+            -54.6630952,
+            -20.4766992
+          ],
+          [
+            -54.6631633,
+            -20.477207
+          ],
+          [
+            -54.6633129,
+            -20.478323
+          ],
+          [
+            -54.6634216,
+            -20.4789906
+          ],
+          [
+            -54.66357,
+            -20.4799301
+          ],
+          [
+            -54.6636963,
+            -20.4808076
+          ],
+          [
+            -54.6637281,
+            -20.4810286
+          ],
+          [
+            -54.6637483,
+            -20.4810738
+          ],
+          [
+            -54.6637763,
+            -20.4811125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/157339824",
+        "osmName": "Rua Orlandina de Oliveira Lima",
+        "matchedCanonicalName": "Orlandina de Oliveira Lima",
+        "axisIds": [
+          "T09"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 510.17
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6598503,
+            -20.4757239
+          ],
+          [
+            -54.6599148,
+            -20.4764064
+          ],
+          [
+            -54.6600024,
+            -20.4770597
+          ],
+          [
+            -54.6600722,
+            -20.4775803
+          ],
+          [
+            -54.6600887,
+            -20.4777033
+          ],
+          [
+            -54.6601772,
+            -20.4783628
+          ],
+          [
+            -54.6602656,
+            -20.478995
+          ],
+          [
+            -54.660354,
+            -20.4796364
+          ],
+          [
+            -54.6604394,
+            -20.4802782
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/157339837",
+        "osmName": "Rua Saladino Nunes",
+        "matchedCanonicalName": "Saladino Nunes",
+        "axisIds": [
+          "T14"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 311.27
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6599148,
+            -20.4764064
+          ],
+          [
+            -54.6578777,
+            -20.4766433
+          ],
+          [
+            -54.6569494,
+            -20.4767513
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847843",
+        "osmName": "Rua Leonel Velasco",
+        "matchedCanonicalName": "Leonel Velasco",
+        "axisIds": [
+          "T02",
+          "T10"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 324.66
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6624787,
+            -20.4721015
+          ],
+          [
+            -54.6593864,
+            -20.4724655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847845",
+        "osmName": "Rua Dorothéa de Oliveira",
+        "matchedCanonicalName": "Dorothéa de Oliveira",
+        "axisIds": [
+          "T12"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 902.08
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6579385,
+            -20.4739532
+          ],
+          [
+            -54.6578582,
+            -20.4746253
+          ],
+          [
+            -54.6577715,
+            -20.4753091
+          ],
+          [
+            -54.657769,
+            -20.4755832
+          ],
+          [
+            -54.6577864,
+            -20.4759553
+          ],
+          [
+            -54.6578777,
+            -20.4766433
+          ],
+          [
+            -54.6579645,
+            -20.4772972
+          ],
+          [
+            -54.65805,
+            -20.4779409
+          ],
+          [
+            -54.6581379,
+            -20.4786028
+          ],
+          [
+            -54.6582255,
+            -20.4792225
+          ],
+          [
+            -54.6583188,
+            -20.4798871
+          ],
+          [
+            -54.6584015,
+            -20.4805441
+          ],
+          [
+            -54.6586045,
+            -20.4818603
+          ],
+          [
+            -54.6586202,
+            -20.4819494
+          ],
+          [
+            -54.6586305,
+            -20.4820046
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847846",
+        "osmName": "Rua Otorino Vieira",
+        "matchedCanonicalName": "Otorino Vieira",
+        "axisIds": [
+          "T04"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 170.27
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6595603,
+            -20.4737623
+          ],
+          [
+            -54.6579385,
+            -20.4739532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847848",
+        "osmName": "Rua Leonel Velasco",
+        "matchedCanonicalName": "Leonel Velasco",
+        "axisIds": [
+          "T02",
+          "T10"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 135.23
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6593864,
+            -20.4724655
+          ],
+          [
+            -54.6580984,
+            -20.4726171
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847850",
+        "osmName": "Rua Orlandina de Oliveira Lima",
+        "matchedCanonicalName": "Orlandina de Oliveira Lima",
+        "axisIds": [
+          "T09"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 145.33
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6593864,
+            -20.4724655
+          ],
+          [
+            -54.6594744,
+            -20.4731219
+          ],
+          [
+            -54.6595603,
+            -20.4737623
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847853",
+        "osmName": "Rua José Garcia Lopes Filho",
+        "matchedCanonicalName": "José Garcia Lopes Filho",
+        "axisIds": [
+          "T08"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 364.1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6624787,
+            -20.4721015
+          ],
+          [
+            -54.6625667,
+            -20.472758
+          ],
+          [
+            -54.6626526,
+            -20.4733984
+          ],
+          [
+            -54.6627401,
+            -20.4740508
+          ],
+          [
+            -54.6628278,
+            -20.4747051
+          ],
+          [
+            -54.6629308,
+            -20.4753483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847856",
+        "osmName": "Rua Antônio João Escobar",
+        "matchedCanonicalName": "Antônio João Escobar",
+        "axisIds": [
+          "T13"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 540.14
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6629308,
+            -20.4753483
+          ],
+          [
+            -54.6614996,
+            -20.4755343
+          ],
+          [
+            -54.660366,
+            -20.4756679
+          ],
+          [
+            -54.6598503,
+            -20.4757239
+          ],
+          [
+            -54.6577864,
+            -20.4759553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847859",
+        "osmName": "Rua Antônio João Escobar",
+        "matchedCanonicalName": "Antônio João Escobar",
+        "axisIds": [
+          "T13"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 232.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.665144,
+            -20.4750852
+          ],
+          [
+            -54.6643254,
+            -20.4751825
+          ],
+          [
+            -54.6636239,
+            -20.4752659
+          ],
+          [
+            -54.6629308,
+            -20.4753483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/165847860",
+        "osmName": "Rua Orlandina de Oliveira Lima",
+        "matchedCanonicalName": "Orlandina de Oliveira Lima",
+        "axisIds": [
+          "T09"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 220.21
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6595603,
+            -20.4737623
+          ],
+          [
+            -54.6596564,
+            -20.4744062
+          ],
+          [
+            -54.6597459,
+            -20.4750574
+          ],
+          [
+            -54.6597557,
+            -20.4751222
+          ],
+          [
+            -54.6597783,
+            -20.4752662
+          ],
+          [
+            -54.6598503,
+            -20.4757239
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/665477560",
+        "osmName": "Rua Fidelo Mariana de Almeida",
+        "matchedCanonicalName": "Fidelo Mariana Almeida",
+        "axisIds": [
+          "T06"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 207.57
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6597459,
+            -20.4750574
+          ],
+          [
+            -54.6577715,
+            -20.4753091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1388022825",
+        "osmName": "Rua Júlio Augusto de Campos",
+        "matchedCanonicalName": "Júlio Augusto de Campos",
+        "axisIds": [
+          "T13"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 156.87
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.656825,
+            -20.4774301
+          ],
+          [
+            -54.6569494,
+            -20.4767513
+          ],
+          [
+            -54.6570761,
+            -20.4760391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/1388022826",
+        "osmName": "Rua Antônio João Escobar",
+        "matchedCanonicalName": "Antônio João Escobar",
+        "axisIds": [
+          "T13"
+        ],
+        "matchType": "canonical",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 74.58
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6577864,
+            -20.4759553
+          ],
+          [
+            -54.6570761,
+            -20.4760391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osmId": "way/154525554",
+        "osmName": "Rua Dourtor Germano Barros de Souza",
+        "matchedCanonicalName": "Doutor Germano Barros de Souza",
+        "axisIds": [
+          "T01"
+        ],
+        "matchType": "alias",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "candidate",
+        "candidateLengthMeters": 587.51
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6637805,
+            -20.4712989
+          ],
+          [
+            -54.6623889,
+            -20.471432
+          ],
+          [
+            -54.6592966,
+            -20.4717959
+          ],
+          [
+            -54.658181,
+            -20.4719272
+          ]
+        ]
+      }
+    }
+  ]
+}

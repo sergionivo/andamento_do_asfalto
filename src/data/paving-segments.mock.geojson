@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "MOCK — segmentos demonstrativos, sem valor oficial",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "trecho-001", "rua": "Rua demonstrativa", "bairro": "Oliveira II", "mock": true },
+      "geometry": { "type": "LineString", "coordinates": [[-54.6610, -20.4754], [-54.6578, -20.4751], [-54.6554, -20.4748]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "trecho-002", "rua": "Via de exemplo", "bairro": "Oliveira I", "mock": true },
+      "geometry": { "type": "LineString", "coordinates": [[-54.6595, -20.4772], [-54.6593, -20.4743], [-54.6591, -20.4718]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "trecho-003", "rua": "Trecho ilustrativo", "bairro": "Oliveira II", "mock": true },
+      "geometry": { "type": "LineString", "coordinates": [[-54.6576, -20.4728], [-54.6552, -20.4730], [-54.6537, -20.4731]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "trecho-004", "rua": "Rua de demonstração", "bairro": "Oliveira I", "mock": true },
+      "geometry": { "type": "LineString", "coordinates": [[-54.6611, -20.4729], [-54.6604, -20.4740], [-54.6595, -20.4750]] }
+    }
+  ]
+}

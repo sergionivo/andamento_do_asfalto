@@ -1,0 +1,1551 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "sourceCrs": "EPSG:31981",
+    "targetCrs": "EPSG:4326",
+    "crsValidationStatus": "validated_against_project_drawings",
+    "generatedFrom": "official_project_coordinates",
+    "projectStatus": "prevista",
+    "executionStatus": "sem_informacao",
+    "geometryStatus": "validated",
+    "validatedAt": "2026-10-07"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV1",
+        "displayId": "PV1",
+        "basin": "Bacia 02",
+        "depthMeters": 2.1,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.662392901496794,
+          -20.471429984322278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV2",
+        "displayId": "PV2",
+        "basin": "Bacia 02",
+        "depthMeters": 2.1,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66188909903839,
+          -20.47149004878847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV3",
+        "displayId": "PV3",
+        "basin": "Bacia 02",
+        "depthMeters": 2.1,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66138532987739,
+          -20.47155042827215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV4",
+        "displayId": "PV4",
+        "basin": "Bacia 02",
+        "depthMeters": 2.1,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.660881594968814,
+          -20.47161105957283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV5",
+        "displayId": "PV5",
+        "basin": "Bacia 02",
+        "depthMeters": 2.1,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66037786926477,
+          -20.47167169853047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV6",
+        "displayId": "PV6",
+        "basin": "Bacia 02",
+        "depthMeters": 2.51,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.65987413387788,
+          -20.471732326829784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV7",
+        "displayId": "PV7",
+        "basin": "Bacia 02",
+        "depthMeters": 2.11,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.659320698535545,
+          -20.47179893951476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV8",
+        "displayId": "PV8",
+        "basin": "Bacia 02",
+        "depthMeters": 2.11,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.65889163620922,
+          -20.471849048027117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV9",
+        "displayId": "PV9",
+        "basin": "Bacia 02",
+        "depthMeters": 2.4,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.658195249159725,
+          -20.471928820621823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV10",
+        "displayId": "PV10",
+        "basin": "Bacia 02",
+        "depthMeters": 2.11,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.65811404731025,
+          -20.472603033174035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV11",
+        "displayId": "PV11",
+        "basin": "Bacia 02",
+        "depthMeters": 2.25,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.65808038717479,
+          -20.472882469605572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV12",
+        "displayId": "PV12",
+        "basin": "Bacia 02",
+        "depthMeters": 2.75,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.658032494816055,
+          -20.473280076423507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA02_PV13",
+        "displayId": "PV13",
+        "basin": "Bacia 02",
+        "depthMeters": 2.38,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.65793839654766,
+          -20.473810738196207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "PV0_BACIA02",
+        "displayId": "PV0",
+        "basin": "Bacia 02",
+        "depthMeters": 1.84,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.65783758419773,
+          -20.474608746395194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV15",
+        "displayId": "PV15",
+        "basin": "Bacia 01",
+        "depthMeters": 1.5,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66458732902996,
+          -20.472496584691996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV16",
+        "displayId": "PV16",
+        "basin": "Bacia 01",
+        "depthMeters": 1.5,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66493728656545,
+          -20.47302655649504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV17",
+        "displayId": "PV17",
+        "basin": "Bacia 01",
+        "depthMeters": 1.7,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66494984970018,
+          -20.47311898090232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV18",
+        "displayId": "PV18",
+        "basin": "Bacia 01",
+        "depthMeters": 1.93,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66408420877271,
+          -20.473223421843564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV19",
+        "displayId": "PV19",
+        "basin": "Bacia 01",
+        "depthMeters": 1.77,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66417533704401,
+          -20.47387933972306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV20",
+        "displayId": "PV20",
+        "basin": "Bacia 01",
+        "depthMeters": 1.6,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.665769453792876,
+          -20.474353537448316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV21",
+        "displayId": "PV21",
+        "basin": "Bacia 01",
+        "depthMeters": 1.6,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66500891371618,
+          -20.4744437809168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV22",
+        "displayId": "PV22",
+        "basin": "Bacia 01",
+        "depthMeters": 1.82,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66424838268729,
+          -20.474534021094332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "BACIA01_PV23",
+        "displayId": "PV23",
+        "basin": "Bacia 01",
+        "depthMeters": 2.15,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66354071845849,
+          -20.474617979310274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "node",
+        "id": "PV0_BACIA01",
+        "displayId": "PV0",
+        "basin": "Bacia 01",
+        "depthMeters": 2.33,
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.66283345920221,
+          -20.47470490201891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-01",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV1",
+        "endNode": "BACIA02_PV2",
+        "startNodeDisplay": "PV1",
+        "endNodeDisplay": "PV2",
+        "officialLengthMeters": 53,
+        "calculatedLengthMeters": 53,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.662392901496794,
+            -20.471429984322278
+          ],
+          [
+            -54.66188909903839,
+            -20.47149004878847
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-02",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV2",
+        "endNode": "BACIA02_PV3",
+        "startNodeDisplay": "PV2",
+        "endNodeDisplay": "PV3",
+        "officialLengthMeters": 53,
+        "calculatedLengthMeters": 53,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66188909903839,
+            -20.47149004878847
+          ],
+          [
+            -54.66138532987739,
+            -20.47155042827215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-03",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV3",
+        "endNode": "BACIA02_PV4",
+        "startNodeDisplay": "PV3",
+        "endNodeDisplay": "PV4",
+        "officialLengthMeters": 53,
+        "calculatedLengthMeters": 53,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66138532987739,
+            -20.47155042827215
+          ],
+          [
+            -54.660881594968814,
+            -20.47161105957283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-04",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV4",
+        "endNode": "BACIA02_PV5",
+        "startNodeDisplay": "PV4",
+        "endNodeDisplay": "PV5",
+        "officialLengthMeters": 53,
+        "calculatedLengthMeters": 53,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.660881594968814,
+            -20.47161105957283
+          ],
+          [
+            -54.66037786926477,
+            -20.47167169853047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-05",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV5",
+        "endNode": "BACIA02_PV6",
+        "startNodeDisplay": "PV5",
+        "endNodeDisplay": "PV6",
+        "officialLengthMeters": 53,
+        "calculatedLengthMeters": 53,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": null,
+        "material": null,
+        "validationStatus": "pending_document_check",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66037786926477,
+            -20.47167169853047
+          ],
+          [
+            -54.65987413387788,
+            -20.471732326829784
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-06",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV6",
+        "endNode": "BACIA02_PV7",
+        "startNodeDisplay": "PV6",
+        "endNodeDisplay": "PV7",
+        "officialLengthMeters": 58.23,
+        "calculatedLengthMeters": 58.23,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65987413387788,
+            -20.471732326829784
+          ],
+          [
+            -54.659320698535545,
+            -20.47179893951476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-07",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV7",
+        "endNode": "BACIA02_PV8",
+        "startNodeDisplay": "PV7",
+        "endNodeDisplay": "PV8",
+        "officialLengthMeters": 45.12,
+        "calculatedLengthMeters": 45.12,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.659320698535545,
+            -20.47179893951476
+          ],
+          [
+            -54.65889163620922,
+            -20.471849048027117
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-08",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV8",
+        "endNode": "BACIA02_PV9",
+        "startNodeDisplay": "PV8",
+        "endNodeDisplay": "PV9",
+        "officialLengthMeters": 73.21,
+        "calculatedLengthMeters": 73.21,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65889163620922,
+            -20.471849048027117
+          ],
+          [
+            -54.658195249159725,
+            -20.471928820621823
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-09",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV9",
+        "endNode": "BACIA02_PV10",
+        "startNodeDisplay": "PV9",
+        "endNodeDisplay": "PV10",
+        "officialLengthMeters": 75.15,
+        "calculatedLengthMeters": 75.15,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.658195249159725,
+            -20.471928820621823
+          ],
+          [
+            -54.65811404731025,
+            -20.472603033174035
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-10",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV10",
+        "endNode": "BACIA02_PV11",
+        "startNodeDisplay": "PV10",
+        "endNodeDisplay": "PV11",
+        "officialLengthMeters": 31.15,
+        "calculatedLengthMeters": 31.15,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65811404731025,
+            -20.472603033174035
+          ],
+          [
+            -54.65808038717479,
+            -20.472882469605572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-11",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV11",
+        "endNode": "BACIA02_PV12",
+        "startNodeDisplay": "PV11",
+        "endNodeDisplay": "PV12",
+        "officialLengthMeters": null,
+        "calculatedLengthMeters": 44.32,
+        "lengthDifferenceMeters": null,
+        "diameterMeters": null,
+        "material": null,
+        "validationStatus": "pending_document_check",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65808038717479,
+            -20.472882469605572
+          ],
+          [
+            -54.658032494816055,
+            -20.473280076423507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-12",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV12",
+        "endNode": "BACIA02_PV13",
+        "startNodeDisplay": "PV12",
+        "endNodeDisplay": "PV13",
+        "officialLengthMeters": 59.58,
+        "calculatedLengthMeters": 59.58,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.658032494816055,
+            -20.473280076423507
+          ],
+          [
+            -54.65793839654766,
+            -20.473810738196207
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-13",
+        "basin": "Bacia 02",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA02_PV13",
+        "endNode": "PV0_BACIA02",
+        "startNodeDisplay": "PV13",
+        "endNodeDisplay": "PV0",
+        "officialLengthMeters": 89,
+        "calculatedLengthMeters": 89,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65793839654766,
+            -20.473810738196207
+          ],
+          [
+            -54.65783758419773,
+            -20.474608746395194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-15",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV15",
+        "endNode": "BACIA01_PV16",
+        "startNodeDisplay": "PV15",
+        "endNodeDisplay": "PV16",
+        "officialLengthMeters": 69.13,
+        "calculatedLengthMeters": 69.13,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66458732902996,
+            -20.472496584691996
+          ],
+          [
+            -54.66493728656545,
+            -20.47302655649504
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-16",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV16",
+        "endNode": "BACIA01_PV17",
+        "startNodeDisplay": "PV16",
+        "endNodeDisplay": "PV17",
+        "officialLengthMeters": 10.32,
+        "calculatedLengthMeters": 10.32,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66493728656545,
+            -20.47302655649504
+          ],
+          [
+            -54.66494984970018,
+            -20.47311898090232
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-17",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV17",
+        "endNode": "BACIA01_PV18",
+        "startNodeDisplay": "PV17",
+        "endNodeDisplay": "PV18",
+        "officialLengthMeters": 91.08,
+        "calculatedLengthMeters": 91.08,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66494984970018,
+            -20.47311898090232
+          ],
+          [
+            -54.66408420877271,
+            -20.473223421843564
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-18",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV18",
+        "endNode": "BACIA01_PV19",
+        "startNodeDisplay": "PV18",
+        "endNodeDisplay": "PV19",
+        "officialLengthMeters": 73.26,
+        "calculatedLengthMeters": 73.26,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66408420877271,
+            -20.473223421843564
+          ],
+          [
+            -54.66417533704401,
+            -20.47387933972306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-19",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV19",
+        "endNode": "BACIA01_PV22",
+        "startNodeDisplay": "PV19",
+        "endNodeDisplay": "PV22",
+        "officialLengthMeters": 72.9,
+        "calculatedLengthMeters": 72.9,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66417533704401,
+            -20.47387933972306
+          ],
+          [
+            -54.66424838268729,
+            -20.474534021094332
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-20",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV20",
+        "endNode": "BACIA01_PV21",
+        "startNodeDisplay": "PV20",
+        "endNodeDisplay": "PV21",
+        "officialLengthMeters": 80,
+        "calculatedLengthMeters": 80,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.6,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.665769453792876,
+            -20.474353537448316
+          ],
+          [
+            -54.66500891371618,
+            -20.4744437809168
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-21",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV21",
+        "endNode": "BACIA01_PV22",
+        "startNodeDisplay": "PV21",
+        "endNodeDisplay": "PV22",
+        "officialLengthMeters": 80,
+        "calculatedLengthMeters": 80,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": null,
+        "material": null,
+        "validationStatus": "pending_document_check",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66500891371618,
+            -20.4744437809168
+          ],
+          [
+            -54.66424838268729,
+            -20.474534021094332
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-22",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV22",
+        "endNode": "BACIA01_PV23",
+        "startNodeDisplay": "PV22",
+        "endNodeDisplay": "PV23",
+        "officialLengthMeters": 74.44,
+        "calculatedLengthMeters": 74.44,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66424838268729,
+            -20.474534021094332
+          ],
+          [
+            -54.66354071845849,
+            -20.474617979310274
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "featureType": "segment",
+        "id": "T-23",
+        "basin": "Bacia 01",
+        "layerType": "drainage",
+        "projectStatus": "prevista",
+        "executionStatus": "sem_informacao",
+        "geometryStatus": "validated",
+        "geometrySource": "Projeto Executivo — Lote 22",
+        "validationMethod": "manual_against_project_drawings",
+        "sourceDrawings": [
+          "Prancha 12",
+          "Prancha 13",
+          "Prancha 15",
+          "Prancha 16",
+          "Prancha 17"
+        ],
+        "validatedAt": "2026-10-07",
+        "startNode": "BACIA01_PV23",
+        "endNode": "PV0_BACIA01",
+        "startNodeDisplay": "PV23",
+        "endNodeDisplay": "PV0",
+        "officialLengthMeters": 74.44,
+        "calculatedLengthMeters": 74.44,
+        "lengthDifferenceMeters": 0,
+        "diameterMeters": 0.8,
+        "material": null,
+        "validationStatus": "confirmed",
+        "source": "Projeto Executivo — Lote 22",
+        "sourceCrs": "EPSG:31981",
+        "crsValidationStatus": "validated_against_project_drawings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66354071845849,
+            -20.474617979310274
+          ],
+          [
+            -54.66283345920221,
+            -20.47470490201891
+          ]
+        ]
+      }
+    }
+  ]
+}

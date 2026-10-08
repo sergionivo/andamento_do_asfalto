@@ -1,0 +1,1201 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525554-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525554"
+        ],
+        "osmName": "Rua Dourtor Germano Barros de Souza",
+        "geometryLengthMeters": 587.51,
+        "validatedAt": "2026-10-07T13:40:42.484Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525554",
+        "corridorName": "Rua Dourtor Germano Barros de Souza",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6637805,
+            -20.4712989
+          ],
+          [
+            -54.6623889,
+            -20.471432
+          ],
+          [
+            -54.6592966,
+            -20.4717959
+          ],
+          [
+            -54.658181,
+            -20.4719272
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525570-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525570"
+        ],
+        "osmName": "Rua Professora Maria Lúcia Passarelli",
+        "geometryLengthMeters": 398.94,
+        "validatedAt": "2026-10-07T13:40:47.451Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525570",
+        "corridorName": "Rua Professora Maria Lúcia Passarelli",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6637805,
+            -20.4712989
+          ],
+          [
+            -54.6642116,
+            -20.4718717
+          ],
+          [
+            -54.6646105,
+            -20.4724953
+          ],
+          [
+            -54.6649983,
+            -20.4731016
+          ],
+          [
+            -54.6653941,
+            -20.4737203
+          ],
+          [
+            -54.6657956,
+            -20.474348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525548-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525548"
+        ],
+        "osmName": "Rua Fidelo Mariana Almeida",
+        "geometryLengthMeters": 502.47,
+        "validatedAt": "2026-10-07T13:40:55.587Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525548",
+        "corridorName": "Rua Fidelo Mariana Almeida",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6662033,
+            -20.4742932
+          ],
+          [
+            -54.6657956,
+            -20.474348
+          ],
+          [
+            -54.664238,
+            -20.474533
+          ],
+          [
+            -54.6628278,
+            -20.4747051
+          ],
+          [
+            -54.6614206,
+            -20.4748798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847853-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847853"
+        ],
+        "osmName": "Rua José Garcia Lopes Filho",
+        "geometryLengthMeters": 291.19,
+        "validatedAt": "2026-10-07T13:41:38.089Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/165847853",
+        "corridorName": "Rua José Garcia Lopes Filho",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6624787,
+            -20.4721015
+          ],
+          [
+            -54.6625667,
+            -20.472758
+          ],
+          [
+            -54.6626526,
+            -20.4733984
+          ],
+          [
+            -54.6627401,
+            -20.4740508
+          ],
+          [
+            -54.662827086127834,
+            -20.474699774041525
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525556-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525556"
+        ],
+        "osmName": "Rua Leonel Velasco",
+        "geometryLengthMeters": 182.32,
+        "validatedAt": "2026-10-07T13:41:46.760Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525556",
+        "corridorName": "Rua Leonel Velasco",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6642116,
+            -20.4718717
+          ],
+          [
+            -54.6624787,
+            -20.4721015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525416-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525416"
+        ],
+        "osmName": "Rua José Garcia Lopes Filho",
+        "geometryLengthMeters": 75.03,
+        "validatedAt": "2026-10-07T13:41:51.241Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525416",
+        "corridorName": "Rua José Garcia Lopes Filho",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6623889,
+            -20.471432
+          ],
+          [
+            -54.6624787,
+            -20.4721015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847843-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847843"
+        ],
+        "osmName": "Rua Leonel Velasco",
+        "geometryLengthMeters": 324.66,
+        "validatedAt": "2026-10-07T13:41:55.908Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/165847843",
+        "corridorName": "Rua Leonel Velasco",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6624787,
+            -20.4721015
+          ],
+          [
+            -54.6593864,
+            -20.4724655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847848-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847848"
+        ],
+        "osmName": "Rua Leonel Velasco",
+        "geometryLengthMeters": 135.23,
+        "validatedAt": "2026-10-07T13:41:59.075Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/165847848",
+        "corridorName": "Rua Leonel Velasco",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6593864,
+            -20.4724655
+          ],
+          [
+            -54.6580984,
+            -20.4726171
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154027099-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154027099"
+        ],
+        "osmName": "Rua Dorothéa de Oliveira",
+        "geometryLengthMeters": 223.7,
+        "validatedAt": "2026-10-07T13:42:10.828Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154027099",
+        "corridorName": "Rua Dorothéa de Oliveira",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.658182501995185,
+            -20.471918059783267
+          ],
+          [
+            -54.658181,
+            -20.4719272
+          ],
+          [
+            -54.6580984,
+            -20.4726171
+          ],
+          [
+            -54.6580192,
+            -20.4732932
+          ],
+          [
+            -54.65794289307473,
+            -20.473917271507748
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154027092-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154027092"
+        ],
+        "osmName": "Rua Orlandina de Oliveira Lima",
+        "geometryLengthMeters": 75.04,
+        "validatedAt": "2026-10-07T13:42:17.743Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154027092",
+        "corridorName": "Rua Orlandina de Oliveira Lima",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6592966,
+            -20.4717959
+          ],
+          [
+            -54.6593864,
+            -20.4724655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847850-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847850"
+        ],
+        "osmName": "Rua Orlandina de Oliveira Lima",
+        "geometryLengthMeters": 145.33,
+        "validatedAt": "2026-10-07T13:42:21.910Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/165847850",
+        "corridorName": "Rua Orlandina de Oliveira Lima",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6593864,
+            -20.4724655
+          ],
+          [
+            -54.6594744,
+            -20.4731219
+          ],
+          [
+            -54.6595603,
+            -20.4737623
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847860-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847860"
+        ],
+        "osmName": "Rua Orlandina de Oliveira Lima",
+        "geometryLengthMeters": 220.21,
+        "validatedAt": "2026-10-07T13:42:25.694Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/165847860",
+        "corridorName": "Rua Orlandina de Oliveira Lima",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6595603,
+            -20.4737623
+          ],
+          [
+            -54.6596564,
+            -20.4744062
+          ],
+          [
+            -54.6597459,
+            -20.4750574
+          ],
+          [
+            -54.6597557,
+            -20.4751222
+          ],
+          [
+            -54.6597783,
+            -20.4752662
+          ],
+          [
+            -54.6598503,
+            -20.4757239
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525553-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525553"
+        ],
+        "osmName": "Rua Engenheiro Orlando Oliveira",
+        "geometryLengthMeters": 692.34,
+        "validatedAt": "2026-10-07T13:42:31.113Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525553",
+        "corridorName": "Rua Engenheiro Orlando Oliveira",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6646105,
+            -20.4724953
+          ],
+          [
+            -54.6625667,
+            -20.472758
+          ],
+          [
+            -54.6611346,
+            -20.4729265
+          ],
+          [
+            -54.6594744,
+            -20.4731219
+          ],
+          [
+            -54.6580192,
+            -20.4732932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525563-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525563"
+        ],
+        "osmName": "Rua Otorino Vieira",
+        "geometryLengthMeters": 571.25,
+        "validatedAt": "2026-10-07T13:42:36.031Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525563",
+        "corridorName": "Rua Otorino Vieira",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6649983,
+            -20.4731016
+          ],
+          [
+            -54.6640637,
+            -20.4732323
+          ],
+          [
+            -54.6626526,
+            -20.4733984
+          ],
+          [
+            -54.6612205,
+            -20.4735669
+          ],
+          [
+            -54.6595603,
+            -20.4737623
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525453-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525453"
+        ],
+        "osmName": "Rua Otacílio de Souza",
+        "geometryLengthMeters": 215.09,
+        "validatedAt": "2026-10-07T13:42:54.147Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525453",
+        "corridorName": "Rua Otacílio de Souza",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6640637,
+            -20.4732323
+          ],
+          [
+            -54.6641512,
+            -20.4738847
+          ],
+          [
+            -54.664238,
+            -20.474533
+          ],
+          [
+            -54.66432123995371,
+            -20.475151585239487
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847859-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847859"
+        ],
+        "osmName": "Rua Antônio João Escobar",
+        "geometryLengthMeters": 232.4,
+        "validatedAt": "2026-10-07T13:42:59.264Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/165847859",
+        "corridorName": "Rua Antônio João Escobar",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.665144,
+            -20.4750852
+          ],
+          [
+            -54.6643254,
+            -20.4751825
+          ],
+          [
+            -54.6636239,
+            -20.4752659
+          ],
+          [
+            -54.6629308,
+            -20.4753483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525413-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525413"
+        ],
+        "osmName": "Rua Antônio João Escobar",
+        "geometryLengthMeters": 151.34,
+        "validatedAt": "2026-10-07T13:43:04.951Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "osmWayId": "way/154525413",
+        "corridorName": "Rua Antônio João Escobar",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6665852,
+            -20.4749138
+          ],
+          [
+            -54.6658258,
+            -20.4750009
+          ],
+          [
+            -54.665144,
+            -20.4750852
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847856-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847856"
+        ],
+        "osmWayId": "way/165847856",
+        "corridorName": "Rua Antônio João Escobar",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua Antônio João Escobar",
+        "geometryLengthMeters": 144.55,
+        "validatedAt": "2026-10-07T18:18:55.131Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.662867639425876,
+            -20.47535650840329
+          ],
+          [
+            -54.6614996,
+            -20.4755343
+          ],
+          [
+            -54.661493183281465,
+            -20.47553505623994
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847856-02",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847856"
+        ],
+        "osmWayId": "way/165847856",
+        "corridorName": "Rua Antônio João Escobar",
+        "segmentIndex": 2,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua Antônio João Escobar",
+        "geometryLengthMeters": 211.06,
+        "validatedAt": "2026-10-07T18:18:55.131Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.659831426525486,
+            -20.475726016053102
+          ],
+          [
+            -54.6578197046326,
+            -20.47595156595669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-1388022826-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/1388022826"
+        ],
+        "osmWayId": "way/1388022826",
+        "corridorName": "Rua Antônio João Escobar",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua Antônio João Escobar",
+        "geometryLengthMeters": 73.39,
+        "validatedAt": "2026-10-07T18:19:25.562Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65777510171344,
+            -20.475956632952855
+          ],
+          [
+            -54.6570761,
+            -20.4760391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-165847845-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/165847845"
+        ],
+        "osmWayId": "way/165847845",
+        "corridorName": "Rua Dorothéa de Oliveira",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua Dorothéa de Oliveira",
+        "geometryLengthMeters": 150.02,
+        "validatedAt": "2026-10-07T18:42:01.187Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65778758512805,
+            -20.475964230647264
+          ],
+          [
+            -54.6578777,
+            -20.4766433
+          ],
+          [
+            -54.6579645,
+            -20.4772972
+          ],
+          [
+            -54.657965278212075,
+            -20.4773030588902
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-1388022825-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/1388022825"
+        ],
+        "osmWayId": "way/1388022825",
+        "corridorName": "Rua Júlio Augusto de Campos",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua Júlio Augusto de Campos",
+        "geometryLengthMeters": 156.87,
+        "validatedAt": "2026-10-07T18:42:30.905Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.656825,
+            -20.4774301
+          ],
+          [
+            -54.6569494,
+            -20.4767513
+          ],
+          [
+            -54.6570761,
+            -20.4760391
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-157339837-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/157339837"
+        ],
+        "osmWayId": "way/157339837",
+        "corridorName": "Rua Saladino Nunes",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua Saladino Nunes",
+        "geometryLengthMeters": 92.85,
+        "validatedAt": "2026-10-07T18:42:40.589Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65784956907318,
+            -20.476646572799844
+          ],
+          [
+            -54.656964987100174,
+            -20.47674948657027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-671414398-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/671414398"
+        ],
+        "osmWayId": "way/671414398",
+        "corridorName": "Rua João Ribeiro Guimarães",
+        "segmentIndex": 1,
+        "geometryMode": "trimmed",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua João Ribeiro Guimarães",
+        "geometryLengthMeters": 118,
+        "validatedAt": "2026-10-07T18:42:51.289Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio.",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.657958856359976,
+            -20.477297858218304
+          ],
+          [
+            -54.65683471142074,
+            -20.47742896735602
+          ]
+        ]
+      }
+    }
+  ]
+}

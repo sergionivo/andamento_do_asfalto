@@ -1,0 +1,517 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T05",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 270.32,
+        "geometryLengthMeters": 271.93,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:20:07.618Z",
+        "osmWayIds": [
+          "way/154525561"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66536382133991,
+            -20.473724304997763
+          ],
+          [
+            -54.6641512,
+            -20.4738847
+          ],
+          [
+            -54.66277628301572,
+            -20.47404654091212
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T02",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 168.71,
+        "geometryLengthMeters": 174.73,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:22:02.229Z",
+        "osmWayIds": [
+          "way/154525556"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66418793329695,
+            -20.47187483844328
+          ],
+          [
+            -54.662527146178896,
+            -20.472095075548555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T03",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 202.85,
+        "geometryLengthMeters": 206.15,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:23:05.052Z",
+        "osmWayIds": [
+          "way/154525553"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66458423366699,
+            -20.472498676145257
+          ],
+          [
+            -54.662623686289194,
+            -20.47275067526266
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T04",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 236.47,
+        "geometryLengthMeters": 237.47,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:24:15.044Z",
+        "osmWayIds": [
+          "way/154525563"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66496512363245,
+            -20.473106239579753
+          ],
+          [
+            -54.6640637,
+            -20.4732323
+          ],
+          [
+            -54.66270615125112,
+            -20.47339209650428
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T06",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 424.57,
+        "geometryLengthMeters": 436,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:27:53.547Z",
+        "osmWayIds": [
+          "way/154525414",
+          "way/154525548"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66655133851147,
+            -20.474858773972816
+          ],
+          [
+            -54.6665852,
+            -20.4749138
+          ],
+          [
+            -54.6662033,
+            -20.4742932
+          ],
+          [
+            -54.6657956,
+            -20.474348
+          ],
+          [
+            -54.664238,
+            -20.474533
+          ],
+          [
+            -54.66287844279793,
+            -20.474698919581957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T07",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 198.7,
+        "geometryLengthMeters": 211.43,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:29:07.221Z",
+        "osmWayIds": [
+          "way/154525453"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.66406633405517,
+            -20.473251939515343
+          ],
+          [
+            -54.6641512,
+            -20.4738847
+          ],
+          [
+            -54.664238,
+            -20.474533
+          ],
+          [
+            -54.664319483652,
+            -20.475138533546577
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T08",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 87.05,
+        "geometryLengthMeters": 75.03,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:30:24.964Z",
+        "osmWayIds": [
+          "way/154525416"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6623889,
+            -20.471432
+          ],
+          [
+            -54.6624787,
+            -20.4721015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T09",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 65.6,
+        "geometryLengthMeters": 70.29,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:32:38.195Z",
+        "osmWayIds": [
+          "way/154027092"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65929853461925,
+            -20.471810325624226
+          ],
+          [
+            -54.6593826533375,
+            -20.47243756274824
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T10",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 95.28,
+        "geometryLengthMeters": 99.72,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:33:27.347Z",
+        "osmWayIds": [
+          "way/165847848"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.659083599137354,
+            -20.47250114022576
+          ],
+          [
+            -54.65813375979765,
+            -20.47261293808593
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T11",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 145.52,
+        "geometryLengthMeters": 146.04,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:34:09.151Z",
+        "osmWayIds": [
+          "way/154525553"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6594379067537,
+            -20.473126195830876
+          ],
+          [
+            -54.65804696167297,
+            -20.47328993201307
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T12",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 208.12,
+        "geometryLengthMeters": 216.7,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:35:21.528Z",
+        "osmWayIds": [
+          "way/154027099"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65818378725906,
+            -20.4719102384597
+          ],
+          [
+            -54.658181,
+            -20.4719272
+          ],
+          [
+            -54.6580984,
+            -20.4726171
+          ],
+          [
+            -54.6580192,
+            -20.4732932
+          ],
+          [
+            -54.657951499742445,
+            -20.473846882403798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T13",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 196.7,
+        "geometryLengthMeters": 201.28,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:36:35.384Z",
+        "osmWayIds": [
+          "way/1388022825",
+          "way/1388022826"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.656859303648616,
+            -20.477242918997753
+          ],
+          [
+            -54.6569494,
+            -20.4767513
+          ],
+          [
+            -54.6570761,
+            -20.4760391
+          ],
+          [
+            -54.6577002188458,
+            -20.475965467507702
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T14",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "officialLengthMeters": 61.55,
+        "geometryLengthMeters": 63.94,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T11:37:12.338Z",
+        "osmWayIds": [
+          "way/157339837"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.65757607329065,
+            -20.476678391764096
+          ],
+          [
+            -54.65696691708611,
+            -20.476749262032424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "axisId": "T01",
+        "geometrySource": "OpenStreetMap",
+        "geometryStatus": "validated",
+        "validationMethod": "manual",
+        "validationGeometryMode": "full_ways",
+        "officialLengthMeters": 988.63,
+        "geometryLengthMeters": 986.45,
+        "startReference": "",
+        "endReference": "",
+        "validatedAt": "2026-10-07T12:09:43.241Z",
+        "osmWayIds": [
+          "way/154525570",
+          "way/154525554"
+        ]
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -54.6637805,
+              -20.4712989
+            ],
+            [
+              -54.6642116,
+              -20.4718717
+            ],
+            [
+              -54.6646105,
+              -20.4724953
+            ],
+            [
+              -54.6649983,
+              -20.4731016
+            ],
+            [
+              -54.6653941,
+              -20.4737203
+            ],
+            [
+              -54.6657956,
+              -20.474348
+            ]
+          ],
+          [
+            [
+              -54.6637805,
+              -20.4712989
+            ],
+            [
+              -54.6623889,
+              -20.471432
+            ],
+            [
+              -54.6592966,
+              -20.4717959
+            ],
+            [
+              -54.658181,
+              -20.4719272
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
