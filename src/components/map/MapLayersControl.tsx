@@ -16,7 +16,7 @@ export function MapLayersControl({ open, onToggle, drainageEnabled, onDrainageCh
     <div className="pointer-events-auto relative">
       {open && (
         <><button type="button" aria-label="Fechar painel de camadas" onClick={onToggle} className="fixed inset-0 z-30 cursor-default bg-slate-950/20 md:hidden" />
-        <section id="layers-panel" aria-label="Camadas do mapa" className="map-sheet fixed inset-x-0 bottom-0 z-40 max-h-[82dvh] overflow-y-auto rounded-t-3xl p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] md:absolute md:inset-x-auto md:bottom-14 md:right-0 md:w-80 md:rounded-2xl md:p-4">
+        <section id="layers-panel" aria-label="Camadas do mapa" className="map-sheet fixed inset-x-0 bottom-0 z-40 max-h-[82dvh] overflow-y-auto rounded-t-3xl p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] md:absolute md:inset-x-auto md:bottom-[4.25rem] md:right-0 md:w-80 md:rounded-2xl md:p-4">
           <div className="flex items-center justify-between gap-4 border-b border-slate-200 pb-3"><h2 className="text-lg font-extrabold text-slate-950">O que aparece no mapa</h2><button type="button" onClick={onToggle} aria-label="Fechar camadas" className="map-icon-button">×</button></div>
           <div className="mt-3 flex min-h-14 items-center gap-3 rounded-xl bg-blue-50 px-4 text-base font-bold text-blue-950">
             <span className="grid size-6 place-items-center rounded-md bg-blue-700 text-sm text-white" aria-hidden="true">✓</span>

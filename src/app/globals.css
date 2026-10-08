@@ -63,6 +63,20 @@ a {
   padding: 4px;
 }
 
+.map-floating-actions {
+  position: absolute;
+  right: 8px;
+  bottom: calc(0.75rem + env(safe-area-inset-bottom));
+  z-index: 20;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.map-floating-actions.is-open {
+  z-index: 40;
+}
+
 .map-control-button {
   display: flex;
   min-width: var(--map-control-size);
@@ -210,18 +224,42 @@ div.maplibregl-ctrl-top-right {
     bottom: 0;
   }
 
+  .map-floating-actions {
+    right: 24px;
+    bottom: 24px;
+  }
+
   .map-legend {
-    right: 420px;
-    bottom: 84px;
+    right: 24px;
+    bottom: 100px;
   }
 
   .map-hint {
     right: auto;
-    left: calc(50% - 200px);
-    bottom: 20px;
-    transform: translateX(-50%);
+    left: 56px;
+    bottom: 24px;
+    max-width: min(360px, calc(100vw - 460px));
+    transform: none;
   }
 
+
+  .maplibregl-ctrl-attrib {
+    opacity: 0.62;
+  }
+
+  .maplibregl-ctrl-attrib-button {
+    width: 26px;
+    height: 26px;
+    min-width: 26px;
+    min-height: 26px;
+  }
+
+  .maplibregl-ctrl-attrib.maplibregl-compact {
+    min-height: 26px;
+    margin-left: 8px;
+    border-radius: 8px;
+    background-color: rgba(255, 253, 249, 0.88);
+  }
 
   div.maplibregl-ctrl-top-right {
     top: 68px !important;

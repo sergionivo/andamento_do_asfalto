@@ -21,7 +21,7 @@ export function MainMenu({ open, onClose, onAbout }: MainMenuProps) {
   if (!open) return null;
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/30 md:bg-transparent" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
-      <nav aria-label="Menu principal" className="map-sheet absolute inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-3xl p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] md:inset-auto md:right-6 md:top-20 md:w-80 md:rounded-2xl md:p-4">
+      <nav aria-label="Menu principal" className="map-sheet absolute inset-x-0 bottom-0 max-h-[85dvh] overflow-y-auto rounded-t-3xl p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] md:inset-auto md:bottom-20 md:right-6 md:w-80 md:rounded-2xl md:p-4">
         <div className="flex items-center justify-between gap-4 border-b border-slate-200 pb-3">
           <h2 className="text-lg font-extrabold text-slate-950">Mais</h2>
           <button type="button" onClick={onClose} aria-label="Fechar menu" className="map-icon-button">×</button>

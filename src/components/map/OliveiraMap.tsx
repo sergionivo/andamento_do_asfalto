@@ -361,7 +361,7 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
       {mapStatus === "loading" && <div className="absolute inset-0 grid place-items-center bg-slate-100 text-sm font-medium text-slate-600">Carregando mapa…</div>}
       {mapStatus === "error" && <div role="alert" className="absolute inset-0 grid place-items-center bg-slate-100 px-6 text-center text-sm text-slate-700">Não foi possível carregar o mapa.</div>}
 
-      {!selected && <div className={`pointer-events-none absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom))] right-2 z-20 flex items-end justify-end md:bottom-5 md:right-[420px] ${layersOpen ? "z-40" : ""}`}>
+      {!selected && <div className={`map-floating-actions pointer-events-none ${layersOpen ? "is-open" : ""}`}>
         <div className="map-control-dock pointer-events-auto"><UserLocationControl status={locationStatus} onLocate={locateUser} />
         <MapLayersControl open={layersOpen} onToggle={() => setLayersOpen((value) => !value)} drainageEnabled={drainageEnabled} onDrainageChange={changeDrainageVisibility} sanitationEnabled={sanitationEnabled} waterEnabled={waterEnabled} sewerEnabled={sewerEnabled} onSanitationChange={changeSanitationVisibility} onWaterChange={changeWaterVisibility} onSewerChange={changeSewerVisibility} />
         <button ref={menuButtonRef} type="button" onClick={() => setMainMenuOpen(true)} aria-label="Abrir menu Mais" aria-expanded={mainMenuOpen} className="map-control-button gap-2 px-3">
@@ -370,8 +370,8 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
         </div>
       </div>}
       {locationMessage && <div role="alert" aria-live="assertive" className="absolute left-1/2 top-20 z-30 flex w-[min(92vw,30rem)] -translate-x-1/2 items-center gap-2 rounded-2xl border border-rose-200 bg-white py-2 pl-4 pr-2 text-base font-medium leading-snug text-rose-950 shadow-xl md:top-24"><span className="flex-1">{locationMessage}</span><button type="button" onClick={() => setLocationMessage(null)} aria-label="Fechar aviso de localização" className="map-icon-button text-rose-900">×</button></div>}
-      {!selected && <MapLegend drainageVisible={drainageEnabled} waterVisible={sanitationEnabled && waterEnabled} sewerVisible={sanitationEnabled && sewerEnabled} />}
-      {!selected && !hasSelectedPavingOnce && <MapHint />}
+      {!selected && !layersOpen && !mainMenuOpen && <MapLegend drainageVisible={drainageEnabled} waterVisible={sanitationEnabled && waterEnabled} sewerVisible={sanitationEnabled && sewerEnabled} />}
+      {!selected && !layersOpen && !mainMenuOpen && !hasSelectedPavingOnce && <MapHint />}
       {selected && <div className="pointer-events-none absolute inset-x-0 bottom-0 z-30 md:inset-y-0 md:left-auto md:right-0 md:flex md:w-[400px] md:items-center md:justify-center md:p-5">
         {selected.type === "sanitation" ? <SanitationDetails segment={selected.properties} onClose={clearSegmentSelection} /> : selected.type === "drainage" ? <DrainageDetails segment={selected.properties} onClose={clearSegmentSelection} /> : <SegmentDetails segment={selected.properties} onClose={clearSegmentSelection} />}
       </div>}

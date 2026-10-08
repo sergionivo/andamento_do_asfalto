@@ -46,7 +46,7 @@ test("hint inicial é simples, sem handle ou aparência de bottom sheet", () => 
   assert.match(hint, /Toque em uma rua para ver os detalhes/);
   assert.equal(hint.includes("h-1 w-10"), false);
   assert.equal(hint.includes("rounded-t-3xl"), false);
-  assert.match(map, /!hasSelectedPavingOnce && <MapHint/);
+  assert.match(map, /!layersOpen && !mainMenuOpen && !hasSelectedPavingOnce && <MapHint/);
   assert.match(map, /setHasSelectedPavingOnce\(true\)/);
 });
 
@@ -68,8 +68,12 @@ test("dock separa ações do app no canto direito", () => {
   assert.match(locationControl, /Onde estou/);
   assert.match(layers, />Camadas</);
   assert.match(map, />Mais</);
-  assert.match(map, /safe-area-inset-bottom/);
+  assert.match(css, /safe-area-inset-bottom/);
   assert.match(map, /!selected && <div/);
+  assert.match(map, /map-floating-actions/);
+  assert.match(css, /\.map-floating-actions \{[\s\S]*right: 8px;[\s\S]*bottom: calc\(0\.75rem \+ env\(safe-area-inset-bottom\)\)/);
+  assert.match(css, /@media \(min-width: 768px\)[\s\S]*\.map-floating-actions \{[\s\S]*right: 24px;[\s\S]*bottom: 24px/);
+  assert.equal(map.includes("md:right-[420px]"), false);
 });
 
 test("detalhes têm cabeçalho fixo, rolagem interna e orientação temporária", () => {
