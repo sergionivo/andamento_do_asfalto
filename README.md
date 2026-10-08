@@ -245,6 +245,8 @@ No Instagram, [@oliveiracomasfalto](https://www.instagram.com/oliveiracomasfalto
 
 Publicações comunitárias podem ajudar a documentar o território, mas não são classificadas automaticamente como informação oficial.
 
+Ao selecionar uma rua no mapa, o morador pode enviar uma observação e até quatro fotos para análise. A contribuição chega pelo Netlify Forms e passa por moderação: nada altera automaticamente o status oficial, a etapa da obra ou a timeline pública. Somente registros aprovados e adicionados manualmente ao repositório aparecem como **Registro da comunidade**. Os critérios estão em [`docs/community-moderation.md`](docs/community-moderation.md).
+
 ## Quer contribuir?
 
 Contribuições são bem-vindas, especialmente:
@@ -368,7 +370,7 @@ Quando utilizado, o OpenStreetMap funciona como base cartográfica aberta. Ele n
 
 - [ ] Organizar a história da pavimentação
 - [ ] Estruturar sugestões e correções
-- [ ] Estruturar registros da comunidade
+- [x] Estruturar envio e publicação moderada de registros da comunidade
 - [ ] Melhorar a integração com atualizações públicas
 
 ### Produto
