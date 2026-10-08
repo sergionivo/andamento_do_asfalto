@@ -65,16 +65,29 @@ test("validator aceita imagens locais seguras e rejeita paralisada e traversal",
 test("formulário contextual inclui CTA, rua readonly, segmentId, estados e privacidade", () => {
   const details = readFileSync("src/components/map/SegmentDetails.tsx", "utf8");
   const form = readFileSync("src/components/map/CommunityContributionForm.tsx", "utf8");
-  assert.match(details, /Viu alguma mudança nesta rua\?/);
+  assert.match(details, /Viu mudança na rua\?/);
   assert.match(details, /Enviar atualização/);
   assert.match(form, /name="segmentId" value=\{segmentId\}/);
-  assert.match(form, /name="streetLabel" value=\{streetLabel\} readOnly/);
+  assert.match(form, /type="hidden" name="streetLabel" value=\{streetLabel\}/);
+  assert.match(form, /Conte o que mudou na sua rua/);
+  assert.match(form, /O que estava acontecendo\?/);
+  assert.match(form, /Tem uma foto\?/);
+  assert.match(form, /type="radio" name="observationType"/);
+  assert.equal(form.includes("name=\"contributorName\""), false);
   assert.match(form, /"idle" \| "submitting" \| "success" \| "error"/);
   assert.match(form, /Recebemos seu registro/);
-  assert.match(form, /Nada será publicado automaticamente/);
+  assert.match(form, /Nada é publicado automaticamente/);
   assert.equal(form.includes("dangerouslySetInnerHTML"), false);
   assert.equal(form.includes("latitude"), false);
   assert.equal(form.includes("longitude"), false);
+});
+
+test("opções simplificadas preservam tipos internos válidos e linguagem neutra", () => {
+  const form = readFileSync("src/components/map/CommunityContributionForm.tsx", "utf8");
+  for (const type of ["crew_or_machinery", "road_preparation", "asphalt_application", "apparently_stopped", "other"]) assert.match(form, new RegExp(`value: "${type}"`));
+  assert.match(form, /Não vi ninguém trabalhando/);
+  assert.equal(form.includes("Obra paralisada"), false);
+  assert.match(form, /Nada é publicado automaticamente/);
 });
 
 test("timeline só renderiza fotos presentes e não conhece contato privado", () => {

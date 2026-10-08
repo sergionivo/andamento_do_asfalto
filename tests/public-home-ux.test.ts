@@ -61,7 +61,7 @@ test("mobile mantém zoom, atribuição compacta e amplia tipografia", () => {
   assert.match(css, /div\.maplibregl-ctrl-top-right \{\s+display: block/);
   assert.match(css, /--text-body: 1rem/);
   assert.match(css, /maplibregl-ctrl-attrib-button/);
-  assert.match(css, /width: 34px;\s+height: 34px/);
+  assert.match(css, /width: 30px;\s+height: 30px/);
 });
 
 test("dock separa ações do app no canto direito", () => {
@@ -76,11 +76,12 @@ test("dock separa ações do app no canto direito", () => {
   assert.equal(map.includes("md:right-[420px]"), false);
 });
 
-test("detalhes têm cabeçalho fixo, rolagem interna e orientação temporária", () => {
+test("detalhes têm rolagem interna, disclosure secundário e CTA comunitário fixo", () => {
   assert.match(details, /max-h-\[80dvh\]/);
   assert.match(details, /min-h-0 overflow-y-auto/);
-  assert.match(details, /Mais informações abaixo ↓/);
-  assert.match(details, /Ocultar detalhes/);
+  assert.match(details, /Ver detalhes técnicos/);
+  assert.match(details, /Ocultar detalhes técnicos/);
+  assert.match(details, /<footer[\s\S]*Enviar atualização/);
   assert.equal(details.includes("h-1 w-10"), false);
 });
 
