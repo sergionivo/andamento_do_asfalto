@@ -105,7 +105,7 @@ test("envio usa POST multipart para o Netlify e trata respostas de sucesso e err
     return new Response(null, { status: 200 });
   }) as typeof fetch;
   await submitCommunityContribution(payload, successFetcher);
-  assert.equal(request.input, "/");
+  assert.equal(request.input, "/__forms.html");
   assert.equal(request.init?.method, "POST");
   assert.equal(request.init?.body, payload);
   assert.equal(request.init?.headers, undefined);

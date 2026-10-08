@@ -27,7 +27,7 @@ function localToday(): string {
 }
 
 export async function submitCommunityContribution(formData: FormData, fetcher: typeof fetch = fetch): Promise<void> {
-  const response = await fetcher("/", { method: "POST", body: formData });
+  const response = await fetcher("/__forms.html", { method: "POST", body: formData });
   if (!response.ok) throw new Error(`Netlify Forms respondeu com HTTP ${response.status}.`);
 }
 
