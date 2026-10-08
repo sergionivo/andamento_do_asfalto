@@ -9,6 +9,9 @@ import { DRAINAGE_PUBLIC_DEFAULT_VISIBLE } from "@/lib/drainage-data";
 import { SANITATION_STYLE } from "@/config/sanitation";
 import { SANITATION_PUBLIC_DEFAULT_VISIBLE } from "@/lib/sanitation-data";
 import { requestUserLocation, type UserCoordinate, type UserLocationStatus } from "@/lib/user-location";
+import { shareSite } from "@/lib/share";
+import { trackEvent } from "@/lib/analytics";
+import { SITE_URL } from "@/config/site";
 import { PAVING_SELECTION_DURATION_MS, PAVING_SELECTION_MAX_ZOOM, isEmptyInteractiveMapClick, pavingGeometryBounds, pavingOpacityExpression, pavingSelectionAfterSegmentClick, pavingSelectionFilter, pavingSelectionPadding, shouldClearPavingSelectionOnEscape } from "@/lib/paving-selection";
 import { selectDrainage, selectPaving, selectSanitation, type PublicMapSelection } from "@/lib/public-map-selection";
 import type { DrainageGeoJsonCollection } from "@/types/drainage";
@@ -33,6 +36,7 @@ const SELECTED_CORE_LAYER_ID = "paving-segment-selected-core";
 const WORKER_URL = "/maplibre-gl-worker.mjs";
 const MAP_INITIALIZATION_TIMEOUT_MS = 15_000;
 const LOCATION_MESSAGE_TIMEOUT_MS = 6_000;
+const SHARE_MESSAGE_TIMEOUT_MS = 5_000;
 const DRAINAGE_SOURCE_ID = "validated-project-drainage";
 const DRAINAGE_CASING_ID = "project-drainage-casing";
 const DRAINAGE_LINE_ID = "project-drainage-lines";
@@ -81,6 +85,7 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
   const [mapStatus, setMapStatus] = useState<"loading" | "ready" | "error">("loading");
   const [locationStatus, setLocationStatus] = useState<UserLocationStatus>("idle");
   const [locationMessage, setLocationMessage] = useState<string | null>(null);
+  const [shareMessage, setShareMessage] = useState<"copied" | "unavailable" | null>(null);
 
   const technicalOverlayIsVisible = useCallback(() => hasTechnicalOverlay({
     drainageVisible: drainageEnabledRef.current,
@@ -119,6 +124,22 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
     const timeout = window.setTimeout(() => setLocationMessage(null), LOCATION_MESSAGE_TIMEOUT_MS);
     return () => window.clearTimeout(timeout);
   }, [locationMessage]);
+
+  useEffect(() => {
+    if (!shareMessage) return;
+    const timeout = window.setTimeout(() => setShareMessage(null), SHARE_MESSAGE_TIMEOUT_MS);
+    return () => window.clearTimeout(timeout);
+  }, [shareMessage]);
+
+  const handleShare = useCallback(async () => {
+    const outcome = await shareSite({ onEvent: (event) => {
+      if (event === "share_native_opened") trackEvent(event, { share_method: "native" });
+      else if (event === "share_link_copied") trackEvent(event, { share_method: "clipboard" });
+      else trackEvent(event);
+    } });
+    if (outcome === "copied") setShareMessage("copied");
+    if (outcome === "unavailable") setShareMessage("unavailable");
+  }, []);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -239,6 +260,7 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
         const segment = segments.features.find((item) => item.properties.axisId === feature.properties?.axisId);
         if (!segment) return;
         const properties = segment.properties;
+        trackEvent("segment_selected", { segment_id: properties.axisId });
         setSelected(selectPaving(properties));
         setHasSelectedPavingOnce(true);
         selectedSegmentIdRef.current = properties.axisId;
@@ -284,6 +306,7 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
         initializationFinished = true;
         window.clearTimeout(initializationTimeout);
         setMapStatus("ready");
+        trackEvent("map_loaded");
       } catch (error) {
         reportInitializationError(error);
       }
@@ -309,6 +332,7 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
     }
     updatePavingVisualContext();
     if (!enabled && selected?.type === "drainage") setSelected(null);
+    if (enabled) trackEvent("layer_drainage_enabled", { layer_name: "drainage" });
   };
 
   const setNetworkVisibility = (type: "water" | "sewer", enabled: boolean) => {
@@ -321,9 +345,9 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
     updatePavingVisualContext();
     if (!enabled && selected?.type === "sanitation" && selected.properties.networkType === type) clearSegmentSelection();
   };
-  const changeSanitationVisibility = (enabled: boolean) => { setSanitationEnabled(enabled); sanitationEnabledRef.current = enabled; if (enabled) { setWaterEnabled(true); setSewerEnabled(true); waterEnabledRef.current = true; sewerEnabledRef.current = true; } setNetworkVisibility("water", enabled); setNetworkVisibility("sewer", enabled); updatePavingVisualContext(); if (!enabled && selected?.type === "sanitation") clearSegmentSelection(); };
-  const changeWaterVisibility = (enabled: boolean) => { setWaterEnabled(enabled); waterEnabledRef.current = enabled; setNetworkVisibility("water", enabled); updatePavingVisualContext(); };
-  const changeSewerVisibility = (enabled: boolean) => { setSewerEnabled(enabled); sewerEnabledRef.current = enabled; setNetworkVisibility("sewer", enabled); updatePavingVisualContext(); };
+  const changeSanitationVisibility = (enabled: boolean) => { setSanitationEnabled(enabled); sanitationEnabledRef.current = enabled; if (enabled) { setWaterEnabled(true); setSewerEnabled(true); waterEnabledRef.current = true; sewerEnabledRef.current = true; trackEvent("layer_water_enabled", { layer_name: "water" }); trackEvent("layer_sewer_enabled", { layer_name: "sewer" }); } setNetworkVisibility("water", enabled); setNetworkVisibility("sewer", enabled); updatePavingVisualContext(); if (!enabled && selected?.type === "sanitation") clearSegmentSelection(); };
+  const changeWaterVisibility = (enabled: boolean) => { setWaterEnabled(enabled); waterEnabledRef.current = enabled; setNetworkVisibility("water", enabled); updatePavingVisualContext(); if (enabled) trackEvent("layer_water_enabled", { layer_name: "water" }); };
+  const changeSewerVisibility = (enabled: boolean) => { setSewerEnabled(enabled); sewerEnabledRef.current = enabled; setNetworkVisibility("sewer", enabled); updatePavingVisualContext(); if (enabled) trackEvent("layer_sewer_enabled", { layer_name: "sewer" }); };
 
   const recenterOnUser = (coordinate: UserCoordinate) => mapRef.current?.flyTo({ center: coordinate, zoom: 16, essential: true });
   const showUserMarker = (coordinate: UserCoordinate) => {
@@ -337,11 +361,13 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
   };
   const locateUser = async () => {
     if (locationRequestInFlightRef.current || !mapRef.current) return;
+    trackEvent("geolocation_requested");
     const cached = userLocationRef.current;
     if (!cached) locationRequestInFlightRef.current = true;
     // Privacidade: a coordenada existe somente em memória; não é persistida, enviada ou registrada.
-    const coordinate = await requestUserLocation({ cached, secureContext: typeof window !== "undefined" && window.isSecureContext, geolocation: typeof navigator === "undefined" ? undefined : navigator.geolocation, setStatus: setLocationStatus, setMessage: setLocationMessage, recenter: recenterOnUser, showMarker: showUserMarker });
+    const coordinate = await requestUserLocation({ cached, secureContext: typeof window !== "undefined" && window.isSecureContext, geolocation: typeof navigator === "undefined" ? undefined : navigator.geolocation, setStatus: setLocationStatus, setMessage: setLocationMessage, recenter: recenterOnUser, showMarker: showUserMarker, onError: (errorType) => trackEvent("geolocation_error", { error_type: errorType }) });
     if (coordinate) userLocationRef.current = coordinate;
+    if (coordinate) trackEvent("geolocation_success");
     locationRequestInFlightRef.current = false;
   };
 
@@ -361,19 +387,27 @@ export function OliveiraMap({ segments, drainage, water, sewer }: OliveiraMapPro
       {mapStatus === "loading" && <div className="absolute inset-0 grid place-items-center bg-slate-100 text-sm font-medium text-slate-600">Carregando mapa…</div>}
       {mapStatus === "error" && <div role="alert" className="absolute inset-0 grid place-items-center bg-slate-100 px-6 text-center text-sm text-slate-700">Não foi possível carregar o mapa.</div>}
 
-      {!selected && <div className={`map-floating-actions pointer-events-none ${layersOpen ? "is-open" : ""}`}>
-        <div className="map-control-dock pointer-events-auto"><UserLocationControl status={locationStatus} onLocate={locateUser} />
-        <MapLayersControl open={layersOpen} onToggle={() => setLayersOpen((value) => !value)} drainageEnabled={drainageEnabled} onDrainageChange={changeDrainageVisibility} sanitationEnabled={sanitationEnabled} waterEnabled={waterEnabled} sewerEnabled={sewerEnabled} onSanitationChange={changeSanitationVisibility} onWaterChange={changeWaterVisibility} onSewerChange={changeSewerVisibility} />
-        <button ref={menuButtonRef} type="button" onClick={() => setMainMenuOpen(true)} aria-label="Abrir menu Mais" aria-expanded={mainMenuOpen} className="map-control-button gap-2 px-3">
-          <svg aria-hidden="true" viewBox="0 0 24 24" className="size-5 fill-current"><circle cx="5" cy="12" r="1.8" /><circle cx="12" cy="12" r="1.8" /><circle cx="19" cy="12" r="1.8" /></svg><span>Mais</span>
-        </button>
+      {!selected && <div className={`map-mobile-bottom-ui ${layersOpen ? "is-open" : ""}`}>
+        {!layersOpen && !mainMenuOpen && !hasSelectedPavingOnce && <MapHint />}
+        <div className={`map-floating-actions pointer-events-none ${layersOpen ? "is-open" : ""}`}>
+          <div className="map-actions-cluster pointer-events-auto">
+            <div className="map-utility-dock"><UserLocationControl status={locationStatus} onLocate={locateUser} />
+              <MapLayersControl open={layersOpen} onToggle={() => setLayersOpen((value) => !value)} drainageEnabled={drainageEnabled} onDrainageChange={changeDrainageVisibility} sanitationEnabled={sanitationEnabled} waterEnabled={waterEnabled} sewerEnabled={sewerEnabled} onSanitationChange={changeSanitationVisibility} onWaterChange={changeWaterVisibility} onSewerChange={changeSewerVisibility} />
+              <button ref={menuButtonRef} type="button" onClick={() => { trackEvent("menu_opened"); setMainMenuOpen(true); }} aria-label="Abrir menu Mais" aria-expanded={mainMenuOpen} className="map-control-button map-more-button gap-2 px-3">
+                <svg aria-hidden="true" viewBox="0 0 24 24" className="size-5 fill-current"><circle cx="5" cy="12" r="1.8" /><circle cx="12" cy="12" r="1.8" /><circle cx="19" cy="12" r="1.8" /></svg><span>Mais</span>
+              </button>
+            </div>
+            <button type="button" onClick={handleShare} aria-label="Compartilhar Oliveira com Asfalto" title="Compartilhar" className="map-share-button">
+              <svg aria-hidden="true" viewBox="0 0 24 24" className="size-5 fill-none stroke-current" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" /><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4" /></svg><span>Compartilhar</span>
+            </button>
+          </div>
         </div>
       </div>}
       {locationMessage && <div role="alert" aria-live="assertive" className="absolute left-1/2 top-20 z-30 flex w-[min(92vw,30rem)] -translate-x-1/2 items-center gap-2 rounded-2xl border border-rose-200 bg-white py-2 pl-4 pr-2 text-base font-medium leading-snug text-rose-950 shadow-xl md:top-24"><span className="flex-1">{locationMessage}</span><button type="button" onClick={() => setLocationMessage(null)} aria-label="Fechar aviso de localização" className="map-icon-button text-rose-900">×</button></div>}
+      {shareMessage && <div role="status" aria-live="polite" className="absolute left-1/2 top-20 z-[70] w-[min(92vw,25rem)] -translate-x-1/2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-center text-base text-slate-800 shadow-xl md:top-24">{shareMessage === "copied" ? <><strong>Link copiado!</strong><span className="mt-0.5 block text-sm text-slate-600">Agora é só enviar para quem quiser.</span></> : <><strong>Não foi possível copiar automaticamente.</strong><a href={SITE_URL} className="mt-1 block break-all font-semibold text-blue-700 underline">{SITE_URL}</a></>}</div>}
       {!selected && !layersOpen && !mainMenuOpen && <MapLegend drainageVisible={drainageEnabled} waterVisible={sanitationEnabled && waterEnabled} sewerVisible={sanitationEnabled && sewerEnabled} />}
-      {!selected && !layersOpen && !mainMenuOpen && !hasSelectedPavingOnce && <MapHint />}
       {selected && <div className="pointer-events-none absolute inset-x-0 bottom-0 z-30 md:inset-y-0 md:left-auto md:right-0 md:flex md:w-[400px] md:items-center md:justify-center md:p-5">
-        {selected.type === "sanitation" ? <SanitationDetails segment={selected.properties} onClose={clearSegmentSelection} /> : selected.type === "drainage" ? <DrainageDetails segment={selected.properties} onClose={clearSegmentSelection} /> : <SegmentDetails segment={selected.properties} onClose={clearSegmentSelection} />}
+        {selected.type === "sanitation" ? <SanitationDetails segment={selected.properties} onClose={clearSegmentSelection} /> : selected.type === "drainage" ? <DrainageDetails segment={selected.properties} onClose={clearSegmentSelection} /> : <SegmentDetails segment={selected.properties} onClose={clearSegmentSelection} onShare={handleShare} />}
       </div>}
       <MapInfoPanel open={infoOpen} onClose={closeInfo} returnFocusRef={menuButtonRef} />
       <MainMenu open={mainMenuOpen} onClose={closeMainMenu} onAbout={openAbout} />

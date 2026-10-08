@@ -31,7 +31,7 @@ test("água e esgoto são datasets independentes e não contêm inferências", (
   const sewer = JSON.parse(readFileSync("src/data/generated/sewer-network.reference.validated.geojson", "utf8")) as SanitationCollection;
   assert.notEqual(water, sewer);
   assert.equal(water.features.length, 30);
-  assert.equal(sewer.features.length, 24);
+  assert.equal(sewer.features.length, 25);
   for (const feature of [...water.features, ...sewer.features]) {
     assert.equal(feature.properties.interferenceStatus, "not_assessed");
     assert.equal(feature.properties.blockageStatus, "not_assessed");
@@ -97,7 +97,7 @@ test("sobreposição é detectada e adjacência não une segmentos automaticamen
 
 test("migração preservou todas as geometrias e adicionou identidade de segmento", () => {
   const water = JSON.parse(readFileSync("src/data/generated/water-network.reference.validated.geojson", "utf8")) as SanitationCollection; const sewer = JSON.parse(readFileSync("src/data/generated/sewer-network.reference.validated.geojson", "utf8")) as SanitationCollection;
-  assert.equal(water.features.length, 30); assert.equal(sewer.features.length, 24);
+  assert.equal(water.features.length, 30); assert.equal(sewer.features.length, 25);
   for (const feature of [...water.features, ...sewer.features]) { assert.ok(Number.isInteger(feature.properties.segmentIndex)); assert.ok(feature.properties.segmentIndex >= 1); assert.match(feature.properties.id, /-\d{2}$/); assert.ok(["full_way", "trimmed"].includes(feature.properties.geometryMode)); }
 });
 
@@ -216,11 +216,11 @@ test("A/B aceita somente o corredor selecionado", () => {
   assert.ok(applySanitationEndpointClick(waterDraft, "start", candidate.geometry.coordinates[1], candidate.properties.osmId));
 });
 
-test("datasets persistidos permanecem com 30 segmentos de água e 24 de esgoto", () => {
+test("datasets persistidos permanecem com 30 segmentos de água e 25 de esgoto", () => {
   const waterRaw = readFileSync("src/data/generated/water-network.reference.validated.geojson");
   const sewerRaw = readFileSync("src/data/generated/sewer-network.reference.validated.geojson");
   assert.equal((JSON.parse(waterRaw.toString()) as SanitationCollection).features.length, 30);
-  assert.equal((JSON.parse(sewerRaw.toString()) as SanitationCollection).features.length, 24);
+  assert.equal((JSON.parse(sewerRaw.toString()) as SanitationCollection).features.length, 25);
   assert.equal(createHash("sha256").update(JSON.stringify((JSON.parse(waterRaw.toString()) as SanitationCollection).features.map((feature) => feature.geometry))).digest("hex"), "a3cd32a07f676284d0aa362fb90ee2a36000d8a58ee627d8306e9e998a36f46c");
-  assert.equal(createHash("sha256").update(JSON.stringify((JSON.parse(sewerRaw.toString()) as SanitationCollection).features.map((feature) => feature.geometry))).digest("hex"), "9b65d700a252582359dadcf21da2a2ece434f715b5716071ba46fbb5e08f71e7");
+  assert.equal(createHash("sha256").update(JSON.stringify((JSON.parse(sewerRaw.toString()) as SanitationCollection).features.map((feature) => feature.geometry))).digest("hex"), "23aacadf17ff91ec709825a94a9b02a5de0cbcbe27ee48d1a9a3635578287e46");
 });

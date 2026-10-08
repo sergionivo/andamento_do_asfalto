@@ -57,7 +57,7 @@ Nem todos esses campos possuem informação pública disponível hoje. Quando a 
 | 🛣️ **Obra do asfalto** | **14 eixos técnicos validados** | Vias e trechos identificados no Projeto Executivo. Geometria cartográfica baseada no OpenStreetMap e validada manualmente contra as plantas do projeto. |
 | 🌧️ **Drenagem da chuva** | **22 trechos e 24 nós/PVs** | Geometria construída a partir das coordenadas do Projeto Executivo e conferida manualmente contra as pranchas técnicas. |
 | 💧 **Rede de água** | **30 segmentos em 27 corredores** | Referência baseada no cadastro de 2025 da Águas Guariroba, incorporado ao Projeto Executivo, e representada sobre corredores do OpenStreetMap. |
-| 🚰 **Rede de esgoto** | **24 segmentos em 23 corredores** | Referência baseada no cadastro de 2025 da Águas Guariroba, com representação cartográfica referencial. |
+| 🚰 **Rede de esgoto** | **25 segmentos em 24 corredores** | Referência baseada no cadastro de 2025 da Águas Guariroba, com representação cartográfica referencial. |
 
 A geometria de pavimentação derivada do OpenStreetMap é uma base cartográfica validada contra o projeto; ela **não** é uma geometria oficial fornecida pela Prefeitura.
 
@@ -155,7 +155,9 @@ A localização:
 - permanece apenas na memória do frontend;
 - não é persistida em `localStorage`, `sessionStorage` ou banco de dados;
 - não é enviada ao servidor;
-- não é enviada para analytics — o projeto atualmente não possui integração de analytics.
+- não é enviada para as ferramentas de métricas.
+
+Google Analytics 4 e Microsoft Clarity só são carregados em produção depois de autorização explícita. A preferência (`granted` ou `denied`) é a única informação guardada localmente para essa finalidade e pode ser alterada em **Mais → Privacidade e métricas**. Relatos, contatos, fotos, textos digitados e coordenadas não são enviados a essas ferramentas. A implementação e o procedimento de validação estão documentados em [`docs/analytics.md`](docs/analytics.md).
 
 Navegadores exigem contexto seguro para geolocalização. Em produção, isso significa HTTPS; `localhost` é normalmente aceito durante o desenvolvimento, mas um endereço IP local servido por HTTP pode não ter acesso ao recurso.
 
@@ -278,6 +280,10 @@ Abra [http://localhost:3000](http://localhost:3000).
 
 O Next.js também informa um endereço `Network` para testes em outros dispositivos da mesma rede. A aplicação pode abrir por esse endereço, mas a geolocalização normalmente não funciona via IP local em HTTP porque o navegador exige HTTPS fora de `localhost`.
 
+### URL pública e prévia de compartilhamento
+
+A metadata usa `NEXT_PUBLIC_SITE_URL` quando a variável está disponível e recorre a `https://oliveiracomasfalto.netlify.app` como endereço canônico. WhatsApp e outros serviços da Meta podem manter a prévia dos links em cache; por isso, alterações no título, na descrição ou em `public/og-image.png` podem levar algum tempo para aparecer mesmo após um deploy bem-sucedido.
+
 ## Scripts do projeto
 
 | Comando | Finalidade |
@@ -329,7 +335,7 @@ Esses quatro arquivos são as fontes cartográficas canônicas consumidas direta
 - `paving-segments.validated.geojson`: 14 geometrias de eixos de pavimentação, baseadas no OSM e validadas manualmente contra o Projeto Executivo;
 - `drainage.project.validated.geojson`: 22 trechos e 24 nós derivados das coordenadas técnicas do projeto;
 - `water-network.reference.validated.geojson`: 30 segmentos referenciais de água;
-- `sewer-network.reference.validated.geojson`: 24 segmentos referenciais de esgoto.
+- `sewer-network.reference.validated.geojson`: 25 segmentos referenciais de esgoto.
 
 Arquivos com `.mock` ainda existentes em `src/data/` pertencem à fase inicial e a testes/legado. Eles não alimentam a home pública atual.
 
@@ -357,6 +363,7 @@ Quando utilizado, o OpenStreetMap funciona como base cartográfica aberta. Ele n
 - [x] Referência cartográfica de esgoto
 - [x] Interface mobile-first
 - [x] Geolocalização opcional
+- [x] Métricas de produto com consentimento prévio
 
 ### Transparência operacional
 
@@ -376,7 +383,7 @@ Quando utilizado, o OpenStreetMap funciona como base cartográfica aberta. Ele n
 ### Produto
 
 - [ ] Disponibilizar um deploy público
-- [ ] Avaliar analytics com respeito à privacidade
+- [x] Integrar analytics com consentimento e minimização de dados
 - [ ] Criar onboarding para novos visitantes
 - [ ] Definir uma rotina pública de atualização
 

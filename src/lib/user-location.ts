@@ -23,10 +23,12 @@ export interface LocationRequestOptions {
   setMessage: (message: string | null) => void;
   recenter: (coordinate: UserCoordinate) => void;
   showMarker: (coordinate: UserCoordinate) => void;
+  onError?: (errorType: "insecure_context" | "not_supported" | "permission_denied" | "position_unavailable" | "timeout") => void;
 }
 
 export function requestUserLocation(options: LocationRequestOptions): Promise<UserCoordinate | null> {
   if (options.secureContext === false) {
+    options.onError?.("insecure_context");
     options.setStatus("error");
     options.setMessage(INSECURE_LOCATION_MESSAGE);
     return Promise.resolve(null);
@@ -38,6 +40,7 @@ export function requestUserLocation(options: LocationRequestOptions): Promise<Us
     return Promise.resolve(options.cached);
   }
   if (!options.geolocation) {
+    options.onError?.("not_supported");
     options.setStatus("error");
     options.setMessage("Seu navegador não oferece suporte à localização.");
     return Promise.resolve(null);
@@ -53,6 +56,7 @@ export function requestUserLocation(options: LocationRequestOptions): Promise<Us
       resolve(coordinate);
     },
     (error) => {
+      options.onError?.(error.code === 1 ? "permission_denied" : error.code === 3 ? "timeout" : "position_unavailable");
       options.setStatus("error");
       options.setMessage(geolocationErrorMessage(error.code));
       resolve(null);

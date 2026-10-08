@@ -20,6 +20,7 @@ test("menu principal possui abertura, fechamento, itens futuros e Instagram", ()
   assert.match(menu, /Como usamos os dados/);
   assert.match(menu, /Sugestões e correções/);
   assert.match(menu, /Novidades/);
+  assert.match(menu, /Privacidade e métricas/);
   assert.match(menu, /Em breve/);
   assert.match(menu, /https:\/\/www\.instagram\.com\/oliveiracomasfalto\//);
 });
@@ -46,7 +47,7 @@ test("hint inicial é simples, sem handle ou aparência de bottom sheet", () => 
   assert.match(hint, /Toque em uma rua para ver os detalhes/);
   assert.equal(hint.includes("h-1 w-10"), false);
   assert.equal(hint.includes("rounded-t-3xl"), false);
-  assert.match(map, /!layersOpen && !mainMenuOpen && !hasSelectedPavingOnce && <MapHint/);
+  assert.match(map, /map-mobile-bottom-ui[\s\S]*!layersOpen && !mainMenuOpen && !hasSelectedPavingOnce && <MapHint/);
   assert.match(map, /setHasSelectedPavingOnce\(true\)/);
 });
 
@@ -68,11 +69,19 @@ test("dock separa ações do app no canto direito", () => {
   assert.match(locationControl, /Onde estou/);
   assert.match(layers, />Camadas</);
   assert.match(map, />Mais</);
+  assert.match(map, />Compartilhar</);
+  assert.match(map, /className="map-share-button"/);
   assert.match(css, /safe-area-inset-bottom/);
   assert.match(map, /!selected && <div/);
   assert.match(map, /map-floating-actions/);
-  assert.match(css, /\.map-floating-actions \{[\s\S]*right: 8px;[\s\S]*bottom: calc\(0\.75rem \+ env\(safe-area-inset-bottom\)\)/);
+  assert.match(css, /\.map-mobile-bottom-ui \{[\s\S]*bottom: calc\(0\.75rem \+ env\(safe-area-inset-bottom\)\)[\s\S]*flex-direction: column/);
   assert.match(css, /@media \(min-width: 768px\)[\s\S]*\.map-floating-actions \{[\s\S]*right: 24px;[\s\S]*bottom: 24px/);
+  assert.match(css, /\.map-actions-cluster \{[\s\S]*flex-direction: column/);
+  assert.match(css, /@media \(min-width: 768px\)[\s\S]*\.map-actions-cluster \{[\s\S]*flex-direction: row/);
+  assert.match(css, /\.map-share-button \{[\s\S]*background: #1d4ed8/);
+  assert.match(css, /\.map-legend \{[\s\S]*top: var\(--mobile-legend-top\)[\s\S]*bottom: auto/);
+  assert.match(css, /\.map-hint \{[\s\S]*position: static/);
+  assert.match(css, /#layers-panel \{[\s\S]*var\(--mobile-action-area-height\)/);
   assert.equal(map.includes("md:right-[420px]"), false);
 });
 

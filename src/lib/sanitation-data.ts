@@ -8,7 +8,7 @@ export const publicSanitationVisibility = (enabled: boolean, waterEnabled: boole
 
 const expected = {
   water: { segments: 30, corridors: 27 },
-  sewer: { segments: 24, corridors: 23 },
+  sewer: { segments: 25, corridors: 24 },
 } as const;
 
 export function validateCanonicalSanitation(collection: SanitationCollection, networkType: SanitationNetworkType, originals: OsmCandidateFeature[]): string[] {

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { openAnalyticsPrivacySettings } from "@/lib/analytics";
 
 interface MainMenuProps {
   open: boolean;
@@ -28,6 +29,7 @@ export function MainMenu({ open, onClose, onAbout }: MainMenuProps) {
         </div>
         <div className="mt-2 grid">
           <button type="button" onClick={onAbout} className="menu-row text-left font-bold text-slate-900"><span>Sobre o projeto</span><span aria-hidden="true" className="text-xl text-slate-500">›</span></button>
+          <button type="button" onClick={() => { onClose(); openAnalyticsPrivacySettings(); }} className="menu-row text-left font-bold text-slate-900"><span>Privacidade e métricas</span><span aria-hidden="true" className="text-xl text-slate-500">›</span></button>
           {comingSoonItems.slice(0, 3).map((item) => <div key={item} className="menu-row"><span>{item}</span><span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-bold text-slate-500">Em breve</span></div>)}
           <a href="https://www.instagram.com/oliveiracomasfalto/" target="_blank" rel="noreferrer" className="menu-row font-bold text-pink-800"><span>Acompanhe no Instagram</span><span aria-hidden="true" className="text-xl text-pink-700">›</span></a>
           <div className="menu-row"><span>Novidades</span><span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-bold text-slate-500">Em breve</span></div>

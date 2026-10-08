@@ -54,8 +54,8 @@ test("home usa exatamente os datasets canônicos validados de saneamento", () =>
   assert.deepEqual(validateCanonicalSanitation(sewer, "sewer", sanitationCandidates.features), []);
   assert.equal(water.features.length, 30);
   assert.equal(new Set(water.features.map((feature) => feature.properties.osmWayId)).size, 27);
-  assert.equal(sewer.features.length, 24);
-  assert.equal(new Set(sewer.features.map((feature) => feature.properties.osmWayId)).size, 23);
+  assert.equal(sewer.features.length, 25);
+  assert.equal(new Set(sewer.features.map((feature) => feature.properties.osmWayId)).size, 24);
   assert.ok([...water.features, ...sewer.features].every((feature) => feature.properties.interferenceStatus === "not_assessed" && feature.properties.blockageStatus === "not_assessed"));
 });
 

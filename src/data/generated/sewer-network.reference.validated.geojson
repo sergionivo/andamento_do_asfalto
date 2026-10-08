@@ -1196,6 +1196,66 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sewer-154525561-01",
+        "networkType": "sewer",
+        "layerType": "sanitation",
+        "source": "Águas Guariroba S.A. — cadastro de 2025",
+        "sourceDocument": "Projeto Executivo — Lote 22 — Prancha 02",
+        "geometrySource": "OpenStreetMap",
+        "geometryMethod": "manual_reference_against_project_layout",
+        "geometryStatus": "validated",
+        "precisionClassification": "reference_corridor",
+        "infrastructureStatus": "existing_network_cadastral_reference",
+        "executionStatus": "not_applicable",
+        "interferenceStatus": "not_assessed",
+        "blockageStatus": "not_assessed",
+        "osmWayIds": [
+          "way/154525561"
+        ],
+        "osmWayId": "way/154525561",
+        "corridorName": "Rua Antônio Vieira d'Almeida",
+        "segmentIndex": 1,
+        "geometryMode": "full_way",
+        "startReference": null,
+        "endReference": null,
+        "osmName": "Rua Antônio Vieira d'Almeida",
+        "geometryLengthMeters": 791.46,
+        "validatedAt": "2026-10-08T12:51:38.038Z",
+        "note": "Representação cartográfica de referência. Não indica posição subterrânea exata, interferência ou bloqueio."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.6653941,
+            -20.4737203
+          ],
+          [
+            -54.6641512,
+            -20.4738847
+          ],
+          [
+            -54.6627401,
+            -20.4740508
+          ],
+          [
+            -54.6613295,
+            -20.4742118
+          ],
+          [
+            -54.6596564,
+            -20.4744062
+          ],
+          [
+            -54.6578582,
+            -20.4746253
+          ]
+        ]
+      }
     }
   ]
 }

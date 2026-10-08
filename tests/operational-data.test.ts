@@ -43,6 +43,6 @@ test("água, esgoto e ausência de eventos nunca geram bloqueio operacional", ()
 });
 
 test("geometrias cartográficas congeladas permanecem intactas", () => {
-  const expected: Record<string, string> = { "src/data/generated/paving-segments.validated.geojson": "2aa92743705d22820ab0981f96d6cfd5781661c7", "src/data/generated/drainage.project.validated.geojson": "4914be691e8da57f7fa6bb763c497a8c2eb38bb3", "src/data/generated/water-network.reference.validated.geojson": "4c9c7aaec030e8655c0e72af381931d862b99d34", "src/data/generated/sewer-network.reference.validated.geojson": "9dd0a94b9647780ff70b1cfe6a3c6db56d3b552c" };
+  const expected: Record<string, string> = { "src/data/generated/paving-segments.validated.geojson": "2aa92743705d22820ab0981f96d6cfd5781661c7", "src/data/generated/drainage.project.validated.geojson": "4914be691e8da57f7fa6bb763c497a8c2eb38bb3", "src/data/generated/water-network.reference.validated.geojson": "4c9c7aaec030e8655c0e72af381931d862b99d34", "src/data/generated/sewer-network.reference.validated.geojson": "de01d431925dfaadf56f64d385c7ecd60372ef1d" };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash("sha1").update(readFileSync(file)).digest("hex"), hash);
 });
